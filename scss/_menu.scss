@@ -43,7 +43,6 @@
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.7;
   visibility: hidden;
 
   &.show {
@@ -76,7 +75,7 @@
   }
   //Branding Side
   &-branding {
-    background: $primary-color;
+    background: $secondary-color;
     transform: translate3d(0, 100%, 0);
     @include easeOut;
 
@@ -88,9 +87,10 @@
     .portrait {
       width: 250px;
       height: 250px;
-      background: url("../img/portrait.jpg");
+      background: url("../img/gitpic.jpg");
       border-radius: 50%;
-      border: solid 3px $secondary-color;
+      border: solid 3px $primary-color;
+      box-shadow: 0px 0px 2px 2px;
     }
   }
 

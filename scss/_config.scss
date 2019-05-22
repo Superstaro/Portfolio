@@ -16,7 +16,7 @@ $background-opacity: 0.8;
       background-size: cover;
 
       .overlay {
-        position: absolute;
+        position: fixed;
         top: 0;
         right: 0;
         width: 100%;
@@ -39,7 +39,7 @@ $background-opacity: 0.8;
 
 //Media query mixins
 @mixin mediaSm {
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 320px) {
     @content;
   }
 }
@@ -47,6 +47,9 @@ $background-opacity: 0.8;
 @mixin mediaMd {
   @media screen and (max-width: 768px) {
     @content;
+    #home {
+      padding: 2rem;
+    }
   }
 }
 
@@ -59,5 +62,12 @@ $background-opacity: 0.8;
 @mixin mediaXl {
   @media screen and (min-width: 1171px) {
     @content;
+  }
+}
+
+//Make Feliz Brown display on same line in mobil devices.
+@media screen and (max-width: 480px) {
+  span.text-secondary {
+    display: block;
   }
 }
