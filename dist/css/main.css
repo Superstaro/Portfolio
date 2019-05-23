@@ -1,3 +1,19 @@
+@media screen and (max-width: 420px) {
+  #about {
+    padding: 1rem !important; }
+  .bio-image {
+    margin: 0 auto !important; }
+  #work {
+    padding: 1rem !important; }
+  .boxes div {
+    width: 100%;
+    font-size: 1rem !important;
+    text-align: center;
+    margin: 1rem auto !important;
+    padding: 1rem !important; }
+  main {
+    padding: 1rem !important; } }
+
 @media screen and (max-width: 480px) {
   span.text-secondary {
     display: block; } }
@@ -212,6 +228,7 @@ main {
     border: 3px white solid;
     padding: 1.5rem 2.5rem;
     margin-bottom: 3rem;
+    border-radius: 2%;
     transition: all 0.5s ease-out; }
     .boxes div:hover {
       padding: 0.5rem 1.5rem;

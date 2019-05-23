@@ -145,6 +145,7 @@ main {
     border: 3px white solid;
     padding: 1.5rem 2.5rem;
     margin-bottom: 3rem;
+    border-radius: 2%;
     @include easeOut;
 
     &:hover {
