@@ -53,7 +53,7 @@ header {
 
 main {
   padding: 4rem;
-  min-height: calc(100vh - 60px); //sticky footer. vh - footer size.
+  min-height: calc(100vh - 40px); //sticky footer. vh - footer size.
 
   .icons {
     margin-top: 1rem;
@@ -75,7 +75,7 @@ main {
   }
 }
 
-.about-info {
+.about-main-info {
   display: grid;
   grid-gap: 30px;
   grid-template-areas:
@@ -110,12 +110,13 @@ main {
 
 .job {
   background: lighten($primary-color, 5);
-  padding: 0.5rem;
+  padding: 1rem;
   border-bottom: $secondary-color 5px solid;
+  border-radius: 2%;
 }
 
 //Portfolio
-.projects {
+.apps {
   display: grid;
   grid-gap: 0.7rem;
   grid-template-columns: repeat(3, 1fr);
@@ -128,33 +129,6 @@ main {
       opacity: 0.5;
       border-color: $secondary-color;
       @include easeOut;
-    }
-  }
-}
-
-//Contact page
-.boxes {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
-  margin-top: 1rem;
-
-  div {
-    font-size: 2rem;
-    border: 3px white solid;
-    padding: 1.5rem 2.5rem;
-    margin-bottom: 3rem;
-    border-radius: 2%;
-    @include easeOut;
-
-    &:hover {
-      padding: 0.5rem 1.5rem;
-      background: $secondary-color;
-      color: set-text-color($secondary-color);
-      span {
-        color: set-text-color($secondary-color);
-      }
     }
   }
 }
@@ -184,11 +158,48 @@ main {
   color: #333;
 }
 
+//subfooter portfolio
+#bottom {
+  background: lighten($primary-color, 15);
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 1.3rem;
+
+  #bottom-icons {
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #bottom-icons a:hover {
+    color: $secondary-color;
+    @include easeOut();
+  }
+
+  .subfooter {
+    border: 1px white solid;
+    padding: 0.4rem;
+    border-radius: 2%;
+    @include easeOut;
+  }
+}
+
+.subfooter:hover {
+  padding: 0.5rem 1.5rem;
+  background: $secondary-color;
+  color: set-text-color($secondary-color);
+  span {
+    color: set-text-color($secondary-color);
+  }
+}
+
 #main-footer {
   text-align: center;
-  padding: 1rem;
+  padding: 0.5rem;
   background: darken($primary-color, 10);
   color: set-text-color($primary-color);
-  height: 60px;
+  height: 40px;
 }
 @import "mobile";

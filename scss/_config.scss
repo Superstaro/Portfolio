@@ -37,7 +37,7 @@ $background-opacity: 0.8;
   }
 }
 
-//Custom media query for iphone 5s.
+//Custom media query for iphone 5s and up.
 @media screen and (max-width: 420px) {
   #about {
     padding: 1rem !important;
@@ -57,33 +57,6 @@ $background-opacity: 0.8;
   }
   main {
     padding: 1rem !important;
-  }
-}
-//Media query mixins
-@mixin mediaSm {
-  @media screen and (max-width: 320px) {
-    @content;
-  }
-}
-
-@mixin mediaMd {
-  @media screen and (max-width: 768px) {
-    @content;
-    #home {
-      padding: 2rem;
-    }
-  }
-}
-
-@mixin mediaLg {
-  @media screen and (min-width: 769px) and (max-width: 1170px) {
-    @content;
-  }
-}
-
-@mixin mediaXl {
-  @media screen and (min-width: 1171px) {
-    @content;
   }
 }
 
