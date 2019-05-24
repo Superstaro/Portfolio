@@ -123,6 +123,17 @@ main {
   margin: auto;
   width: 80%;
   grid-template-columns: repeat(3, 1fr);
+
+  img {
+    width: 100%;
+    border: 3px #fff solid;
+
+    &:hover {
+      opacity: 0.5;
+      border-color: $secondary-color;
+      @include easeOut;
+    }
+  }
 }
 
 //Button styles
