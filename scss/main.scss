@@ -42,7 +42,6 @@ a {
 }
 
 header {
-  position: fixed;
   z-index: 2;
   width: 100%;
 }
@@ -75,6 +74,8 @@ main {
   }
 }
 
+//About me page.
+
 .about-main-info {
   display: grid;
   grid-gap: 30px;
@@ -87,7 +88,6 @@ main {
 .bioimage {
   grid-area: bioimage;
   margin: auto;
-  border-radius: 50%;
   border: $secondary-color 3px solid;
 }
 
@@ -99,7 +99,6 @@ main {
 .job-1 {
   grid-area: job1;
 }
-
 .job-2 {
   grid-area: job2;
 }
@@ -108,7 +107,9 @@ main {
   grid-area: job3;
 }
 
-.job {
+//boxes in about me page.
+
+.jobs {
   background: lighten($primary-color, 5);
   padding: 1rem;
   border-bottom: $secondary-color 5px solid;
@@ -118,7 +119,9 @@ main {
 //Portfolio
 .apps {
   display: grid;
-  grid-gap: 0.7rem;
+  grid-gap: 4.5rem;
+  margin: auto;
+  width: 80%;
   grid-template-columns: repeat(3, 1fr);
 
   img {
@@ -148,7 +151,7 @@ main {
 
 .btn-dark {
   @extend .btn;
-  background: darken($primary-color, 50);
+  background: darken($primary-color, 10);
   color: #fff;
 }
 
@@ -168,9 +171,10 @@ main {
   font-size: 1.3rem;
 
   #bottom-icons {
-    width: 15%;
+    width: 20%;
     display: flex;
     justify-content: space-around;
+    font-size: 15px;
   }
 
   #bottom-icons a:hover {
@@ -179,7 +183,6 @@ main {
   }
 
   .subfooter {
-    border: 1px white solid;
     padding: 0.4rem;
     border-radius: 2%;
     @include easeOut;

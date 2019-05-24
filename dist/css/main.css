@@ -1,19 +1,3 @@
-@media screen and (max-width: 420px) {
-  #about {
-    padding: 1rem !important; }
-  .bio-image {
-    margin: 0 auto !important; }
-  #work {
-    padding: 1rem !important; }
-  .boxes div {
-    width: 100%;
-    font-size: 1rem !important;
-    text-align: center;
-    margin: 1rem auto !important;
-    padding: 1rem !important; }
-  main {
-    padding: 1rem !important; } }
-
 @media screen and (max-width: 480px) {
   span.text-secondary {
     display: block; } }
@@ -152,7 +136,6 @@ a {
   text-decoration: none; }
 
 header {
-  position: fixed;
   z-index: 2;
   width: 100%; }
 
@@ -183,7 +166,6 @@ main {
 .bioimage {
   grid-area: bioimage;
   margin: auto;
-  border-radius: 50%;
   border: #eece1a 3px solid; }
 
 .bio {
@@ -199,7 +181,7 @@ main {
 .job-3 {
   grid-area: job3; }
 
-.job {
+.jobs {
   background: #515151;
   padding: 1rem;
   border-bottom: #eece1a 5px solid;
@@ -207,7 +189,9 @@ main {
 
 .apps {
   display: grid;
-  grid-gap: 0.7rem;
+  grid-gap: 4.5rem;
+  margin: auto;
+  width: 80%;
   grid-template-columns: repeat(3, 1fr); }
   .apps img {
     width: 100%;
@@ -227,7 +211,7 @@ main {
     color: set-text-color #eece1a; }
 
 .btn-dark {
-  background: black;
+  background: #2b2b2b;
   color: #fff; }
 
 .btn-light {
@@ -242,14 +226,14 @@ main {
   justify-content: space-around;
   font-size: 1.3rem; }
   #bottom #bottom-icons {
-    width: 15%;
+    width: 20%;
     display: flex;
-    justify-content: space-around; }
+    justify-content: space-around;
+    font-size: 15px; }
   #bottom #bottom-icons a:hover {
     color: #eece1a;
     transition: all 0.5s ease-out; }
   #bottom .subfooter {
-    border: 1px white solid;
     padding: 0.4rem;
     border-radius: 2%;
     transition: all 0.5s ease-out; }
@@ -289,13 +273,3 @@ div.menu-branding {
     background: url("");
     width: 150px;
     height: 150px; }
-
-.about-info {
-  grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
-  grid-template-columns: 1fr; }
-
-.projects {
-  grid-template-columns: repeat(2, 1fr); }
-
-.projects {
-  grid-template-columns: 1fr; }
