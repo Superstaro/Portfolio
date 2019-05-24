@@ -193,6 +193,17 @@ main {
       border-color: #eece1a;
       transition: all 0.5s ease-out; }
 
+.subfooter div:hover {
+  padding: 0.5rem 1.5rem;
+  border-radius: 2px;
+  background: #444;
+  transition: 0.5s;
+  font-size: 18px;
+  color: set-text-color(#eece1a); }
+  .subfooter div:hover span {
+    color: set-text-color(#eece1a);
+    transition: all 0.5s ease-out; }
+
 .btn, .btn-dark, .btn-light {
   display: block;
   padding: 0.5rem 1rem;
@@ -279,4 +290,4 @@ main {
   main#work {
     padding: 10px; }
   main#about {
-    padding: 10px; } }
+    padding: 15px; } }
