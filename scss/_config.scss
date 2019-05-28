@@ -1,5 +1,5 @@
 //variables to be reuse elsewhere.
-$primary-color: #444;
+$primary-color: #061835;
 $secondary-color: #eece1a;
 $show-home-image: true;
 $home-image: url(../img/background.jpg);
@@ -34,19 +34,20 @@ $background-opacity: 0.9;
   @media screen and (min-width: 320px) and (max-width: 767px) {
     @content; //Creates a variable to be used elsewhere.
   }
-}
-@mixin mediaMd {
-  @media screen and (max-width: 768px) {
-    @content; //Creates a variable to be used elsewhere.
+
+  @mixin mediaMd {
+    @media screen and (max-width: 768px) {
+      @content; //Creates a variable to be used elsewhere.
+    }
   }
-}
-@mixin mediaLg {
-  @media screen and (min-width: 769px) and (max-width: 1170px) {
-    @content; //Creates a variable to be used elsewhere.
+  @mixin mediaLg {
+    @media screen and (min-width: 769px) and (max-width: 1170px) {
+      @content; //Creates a variable to be used elsewhere.
+    }
   }
-}
-@mixin mediaXl {
-  @media screen and (min-width: 1171px) {
-    @content; //Creates a variable to be used elsewhere.
+  @mixin mediaXl {
+    @media screen and (min-width: 1171px) {
+      @content; //Creates a variable to be used elsewhere.
+    }
   }
 }
