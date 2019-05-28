@@ -4,7 +4,7 @@
   "description": "Responsive Portfolio Website.",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "start": "node-sass -w scss/ -o dist/css/ --recursive"
   },
   "author": "Victor Feliz Brown",
   "license": "ISC",
