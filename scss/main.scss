@@ -155,30 +155,6 @@ main {
     }
   }
 
-  //Button styles
-  .btn {
-    display: block;
-    padding: 0.5rem 1rem;
-    border: 0;
-    margin-bottom: 0.3rem;
-
-    &:hover {
-      background: $secondary-color;
-      color: set-text-color ($secondary-color);
-    }
-  }
-
-  .btn-dark {
-    @extend .btn;
-    background: darken($primary-color, 10);
-    color: #fff;
-  }
-
-  .btn-light {
-    @extend .btn;
-    background: lighten($primary-color, 50);
-    color: #333;
-  }
   //subfooter
   #bottom {
     background: lighten($primary-color, 15);
@@ -210,12 +186,5 @@ main {
     }
   }
 
-  #footer {
-    text-align: center;
-    padding: 0.5rem;
-    background: darken($primary-color, 10);
-    color: set-text-color($primary-color);
-    height: 40px;
-  }
   @import "mobile";
 }

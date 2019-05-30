@@ -1,6 +1,5 @@
 //Mobile media queris mixins import.
-@include mediaXl {
-}
+
 @include mediaLg {
   .apps {
     grid-template-columns: repeat(3, 1fr);
@@ -51,11 +50,6 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
-
-@include mediaSm {
-  main#home {
-    padding: 1.5rem;
-  }
 
   .lg-heading {
     margin-top: 20vh;
