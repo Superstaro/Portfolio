@@ -172,6 +172,19 @@ main {
   padding: 4rem;
   min-height: calc(100vh - 40px);
 }
+
+main#home .lg-heading {
+  margin-top: 30vh;
+}
+
+main#about .lg-heading {
+  margin-top: 20vh;
+}
+
+main#work .lg-heading {
+  margin-top: 20vh;
+}
+
 main .icons {
   margin-top: 1rem;
 }
@@ -336,7 +349,6 @@ footer#footer {
   }
 
   main .lg-heading {
-    margin-top: 20vh;
     font-size: 3rem;
     line-height: 1;
   }
