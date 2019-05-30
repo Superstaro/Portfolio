@@ -249,7 +249,7 @@ main .apps img:hover {
   color: #5f5f5f;
   transition: all 0.5s ease-out;
 }
-main .subfooter div:hover {
+.subfooter div:hover {
   padding: 0.5rem 1.5rem;
   border-radius: 2px;
   background: #061835;
@@ -257,10 +257,7 @@ main .subfooter div:hover {
   font-size: 18px;
   color: set-text-color(#eece1a);
 }
-main .subfooter div:hover span {
-  color: set-text-color(#eece1a);
-  transition: all 0.5s ease-out;
-}
+
 #bottom {
   background: #0d3250;
   display: flex;
