@@ -363,4 +363,27 @@ footer#footer {
   main main#about {
     padding: 10px;
   }
+
+  #bottom {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+  }
+  #bottom .logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  #bottom .subfooter {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+  }
+  #bottom .bottom-icons {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+  }
 }
