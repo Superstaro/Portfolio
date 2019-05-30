@@ -126,11 +126,13 @@ main {
 
     img {
       width: 100%;
-      border: 1px #fff solid;
+      border-radius: 4%;
+      border: 1px rgb(127, 126, 129) solid;
 
       &:hover {
-        opacity: 0.5;
-        border-color: $secondary-color;
+        transform: scale(1.1); /* zoom. */
+        box-shadow: 0px 10px 10px 0px;
+        color: rgb(95, 95, 95);
         @include easeOut;
       }
     }
