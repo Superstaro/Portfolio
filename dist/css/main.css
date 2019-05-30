@@ -177,8 +177,13 @@ main#home .lg-heading {
   margin-top: 30vh;
 }
 
-main#about .lg-heading {
-  margin-top: 20vh;
+.about-main-info {
+  margin-top: 30vh;
+}
+
+.portfolio-page-info {
+  margin-top: 30vh;
+  margin-bottom: 2rem;
 }
 
 main#work .lg-heading {
@@ -237,12 +242,12 @@ main .apps {
   width: 80%;
   grid-template-columns: repeat(3, 1fr);
 }
-main .apps img {
+.apps img {
   width: 100%;
   border-radius: 4%;
   border: 1px #7f7e81 solid;
 }
-main .apps img:hover {
+.apps img:hover {
   transform: scale(1.1);
   /* zoom. */
   box-shadow: 0px 10px 10px 0px;
@@ -255,7 +260,7 @@ main .apps img:hover {
   background: #061835;
   transition: 0.5s;
   font-size: 18px;
-  color: set-text-color(#eece1a);
+  color: #eece1a;
 }
 
 #bottom {
