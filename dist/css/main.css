@@ -237,9 +237,9 @@ main .jobs {
 }
 main .apps {
   display: grid;
-  grid-gap: 4.5rem;
+  grid-gap: 2rem;
   margin: auto;
-  width: 80%;
+  width: 90%;
   grid-template-columns: repeat(3, 1fr);
 }
 .apps img {
