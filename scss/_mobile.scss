@@ -51,19 +51,18 @@
   }
 }
 
-  .lg-heading {
-    margin-top: 20vh;
-    font-size: 3rem;
-    line-height: 1;
-  }
-  .apps {
-    grid-template-columns: 1fr;
-  }
-  main#work {
-    padding: 10px;
-  }
+.lg-heading {
+  margin-top: 20vh;
+  font-size: 3rem;
+  line-height: 1;
+}
+.apps {
+  grid-template-columns: 1fr;
+}
+main#work {
+  padding: 10px;
+}
 
-  main#about {
-    padding: 15px;
-  }
+main#about {
+  padding: 15px;
 }
