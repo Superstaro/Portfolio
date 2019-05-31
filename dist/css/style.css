@@ -262,11 +262,6 @@ h3.sm-heading {
   padding: 0.2rem 1rem;
 }
 
-a {
-  color: #fff;
-  text-decoration: none;
-}
-
 header {
   position: fixed;
   z-index: 2;
@@ -274,7 +269,7 @@ header {
 }
 
 .text-secondary {
-  color: purple;
+  color: rgb(8, 14, 88);
 }
 
 main {
@@ -290,12 +285,14 @@ main {
 }
 
 a {
+  color: #444;
   padding: 0.4rem;
+  text-decoration: none;
 }
 
 a:hover {
-  color: yellow;
-  /* @include easeOut;*/
+  color: rgb(251, 255, 5);
+  transition: all 0.5s ease-out;
 }
 
 #home {
@@ -309,6 +306,7 @@ h1 {
 /*About me page.*/
 
 .about-main-info {
+  padding: 4rem;
   display: grid;
   grid-gap: 30px;
   grid-template-areas:
@@ -338,65 +336,8 @@ h1 {
   grid-area: job3;
 }
 
-//boxes in about me page.
-
 .jobs {
-  // background: lighten($primary-color, 5);
-  padding: 1rem;
-  // border-bottom: $secondary-color 5px solid;
-  border-radius: 2%;
-}
-
-main {
-  padding: 4rem;
-  min-height: calc(100vh - 40px);
-}
-main .icons {
-  margin-top: 1rem;
-}
-main .icons a {
-  padding: 0.4rem;
-}
-main .icons a:hover {
-  transition: all 0.5s ease-out;
-}
-main .icons#home {
-  overflow: hidden;
-}
-main .icons#home h1 {
-  margin-top: 20vh;
-}
-
-.about-main-info {
-  display: grid;
-  grid-gap: 30px;
-  grid-template-areas: "bioimage bio bio" "job1 job2 job3";
-  grid-template-columns: repeat(3, 1fr);
-}
-
-.bioimage {
-  grid-area: bioimage;
-  margin: auto;
-}
-
-.bio {
-  grid-area: bio;
-  font-size: 1.5rem;
-}
-
-.job-1 {
-  grid-area: job1;
-}
-
-.job-2 {
-  grid-area: job2;
-}
-
-.job-3 {
-  grid-area: job3;
-}
-
-.jobs {
+  background: rgb(182, 166, 166);
   padding: 1rem;
   border-radius: 2%;
 }
