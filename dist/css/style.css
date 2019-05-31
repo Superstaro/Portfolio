@@ -247,14 +247,15 @@ h3 {
 h1.lg-heading,
 h2.lg-heading,
 h3.lg-heading {
-  font-size: 4rem;
+  font-size: 3rem;
+  padding-left: 3rem;
 }
 
 h1.sm-heading,
 h2.sm-heading,
 h3.sm-heading {
   margin-bottom: 2rem;
-  padding: 0.2rem 1rem;
+  padding: 0.2rem 0rem 1rem 3rem;
 }
 
 header {
@@ -277,6 +278,7 @@ main {
 
 .icons {
   margin-top: 1rem;
+  padding-left: 3rem;
 }
 
 a {
@@ -352,6 +354,11 @@ h1 {
 .apps img {
   width: 80%;
   border-radius: 4%;
+}
+
+.jobs {
+  background: #0d3250;
+  color: rgb(234, 234, 236);
 }
 
 /*footer*/
