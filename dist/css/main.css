@@ -10,7 +10,7 @@
   width: 28px;
   height: 3px;
   margin: 0 0 5px 0;
-  background: #fff;
+  background: #444;
   transition: all 0.5s ease-out;
 }
 .menu-btn.close {
@@ -50,7 +50,7 @@
 .menu-nav {
   margin: 0;
   padding: 0;
-  background: #030e1e;
+  background: #708baf;
   list-style: none;
   transform: translate3d(0, -100%, 0);
   transition: all 0.5s ease-out;
@@ -59,7 +59,7 @@
   transform: translate3d(0, 0, 0);
 }
 .menu-branding {
-  background: #eece1a;
+  background: #e9d461;
   transform: translate3d(0, 100%, 0);
   transition: all 0.5s ease-out;
 }
@@ -112,7 +112,7 @@
 }
 
 body {
-  background: #061835;
+  /* background: #061835; */
   color: #fff;
   height: 100%;
   margin: 0;
@@ -120,7 +120,7 @@ body {
   line-height: 1.5;
 }
 body#bg-img {
-  background: url(../img/background.jpg);
+  background: url(../img/background.png);
   background-attachment: fixed;
   background-size: cover;
 }
@@ -131,7 +131,7 @@ body#bg-img .overlay {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background: rgba(6, 24, 53, 0.9);
+  /* background: rgba(6, 24, 53, 0.9); */
 }
 
 h1,
@@ -150,7 +150,7 @@ h2.sm-heading,
 h3.sm-heading {
   margin-bottom: 2rem;
   padding: 0.2rem 1rem;
-  background: rgba #071c3e, 0.5;
+  /* background: rgba #071c3e, 0.5; */
 }
 
 a {
@@ -165,7 +165,7 @@ header {
 }
 
 .text-secondary {
-  color: #eece1a;
+  color: #444;
 }
 
 main {
@@ -230,7 +230,7 @@ main .job-3 {
   grid-area: job3;
 }
 main .jobs {
-  background: #09224c;
+  background: #6d80a0;
   padding: 1rem;
   border-bottom: #eece1a 5px solid;
   border-radius: 2%;
@@ -264,7 +264,7 @@ main .apps {
 }
 
 #bottom {
-  background: #0d3250;
+  background: #779cbb;
   display: flex;
 }
 #bottom .logo {
