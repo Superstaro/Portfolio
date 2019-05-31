@@ -112,7 +112,6 @@
 }
 
 body {
-  /* background: #061835; */
   color: #fff;
   height: 100%;
   margin: 0;
@@ -131,7 +130,6 @@ body#bg-img .overlay {
   width: 100%;
   height: 100%;
   z-index: -1;
-  /* background: rgba(6, 24, 53, 0.9); */
 }
 
 h1,
@@ -150,7 +148,6 @@ h2.sm-heading,
 h3.sm-heading {
   margin-bottom: 2rem;
   padding: 0.2rem 1rem;
-  /* background: rgba #071c3e, 0.5; */
 }
 
 a {
