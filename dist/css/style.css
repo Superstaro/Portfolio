@@ -1,6 +1,10 @@
+/*Select the whole page using box model.*/
+
 * {
-    box-sizing: border-box; /*selects the whole page using box model.*/
+    box-sizing: border-box; 
     }
+
+/*Menu and its buttons*/
     
     .menu-btn {
     position: absolute;
@@ -102,22 +106,7 @@
     transition-delay: 0.4s;
     }
     
-    /* //Menu Button */
-    .menu-btn {
-    position: absolute;
-    z-index: 3;
-    right: 35px;
-    top: 35px;
-    cursor: pointer;
-    @include easeOut;
-    
-    .btn-line {
-    width: 28px;
-    height: 3px;
-    margin: 0 0 5px 0;
-    background: #fff;
-    @include easeOut;
-    }
+   
     
     /* //Rotate Into X with Menu Lines */
     &.close {
@@ -230,11 +219,7 @@
     
     
     
-    
-    
-    * {
-    box-sizing: border-box;
-    }
+
     
     body {
     background-image: image(../img/background.png),
