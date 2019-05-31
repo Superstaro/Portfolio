@@ -258,6 +258,80 @@ h3.sm-heading {
   padding: 0.2rem 0rem 1rem 3rem;
 }
 
+/*Text Animation Home*/
+.lg-heading {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.lg-heading:first-of-type {
+  animation: showup 7s infinite;
+}
+
+.lg-heading:last-of-type {
+  width: 0px;
+  animation: reveal 7s infinite;
+}
+
+.lg-heading:last-of-type span {
+  margin-left: 20px;
+  animation: slidein 10s infinite;
+}
+
+@keyframes showup {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes slidein {
+  0% {
+    margin-left: -1000px;
+  }
+  20% {
+    margin-left: -1000px;
+  }
+  35% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 0px;
+  }
+}
+
+@keyframes reveal {
+  0% {
+    opacity: 0;
+    width: 0px;
+  }
+  20% {
+    opacity: 1;
+    width: 0px;
+  }
+  30% {
+    width: 2000px;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    width: 2000px;
+  }
+}
+
+/*End text animation */
+
 header {
   position: fixed;
   z-index: 2;
