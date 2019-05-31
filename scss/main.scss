@@ -73,46 +73,47 @@ main {
       }
     }
   }
+}
 
-  //About me page.
+//About me page.
 
-  .about-main-info {
-    display: grid;
-    grid-gap: 30px;
-    grid-template-areas:
-      "bioimage bio bio"
-      "job1 job2 job3";
-    grid-template-columns: repeat(3, 1fr);
-  }
+.about-main-info {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-areas:
+    "bioimage bio bio"
+    "job1 job2 job3";
+  grid-template-columns: repeat(3, 1fr);
+}
 
-  .bioimage {
-    grid-area: bioimage;
-    margin: auto;
-  }
+.bioimage {
+  grid-area: bioimage;
+  margin: auto;
+}
 
-  .bio {
-    grid-area: bio;
-    font-size: 1.5rem;
-  }
+.bio {
+  grid-area: bio;
+  font-size: 1.5rem;
+}
 
-  .job-1 {
-    grid-area: job1;
-  }
-  .job-2 {
-    grid-area: job2;
-  }
+.job-1 {
+  grid-area: job1;
+}
+.job-2 {
+  grid-area: job2;
+}
 
-  .job-3 {
-    grid-area: job3;
-  }
+.job-3 {
+  grid-area: job3;
+}
 
-  //boxes in about me page.
+//boxes in about me page.
 
-  .jobs {
-    background: lighten($primary-color, 5);
-    padding: 1rem;
-    border-bottom: $secondary-color 5px solid;
-    border-radius: 2%;
-  }
-  
+.jobs {
+  background: lighten($primary-color, 5);
+  padding: 1rem;
+  border-bottom: $secondary-color 5px solid;
+  border-radius: 2%;
+}
+
 @import "mobile";
