@@ -19,7 +19,7 @@
   width: 28px;
   height: 3px;
   margin: 0 0 5px 0;
-  background: #fff;
+  background: #444;
   transition: all 0.5s ease-out;
 }
 
@@ -172,12 +172,12 @@
 /*Slide from top*/
 .menu .show {
   transform: translate3d(0, 0, 0);
-  background: red;
+  background: rgb(166, 195, 209);
 }
 
 /*Branding Side*/
 .menu-branding.show {
-  background: blue;
+  background: #0d3250;
 }
 
 /* //Slide in from bottom */
@@ -194,8 +194,8 @@
   transform: translate3d(0, 0, 0);
 }
 
-.nav-item .current > a {
-  color: blue;
+.current > a {
+  color: #0d3250;
 }
 
 .nav-link {
@@ -210,7 +210,7 @@
 }
 
 .nav-link:hover {
-  color: blue;
+  color: #0d3250;
 }
 
 /* //Delay each nav item slide */
@@ -264,7 +264,7 @@ header {
 }
 
 .text-secondary {
-  color: rgb(8, 14, 88);
+  color: #11266e;
 }
 
 main {
@@ -286,8 +286,9 @@ a {
 }
 
 a:hover {
-  color: rgb(251, 255, 5);
-  transition: all 0.5s ease-out;
+  color: #1d4a6e;
+  transition: transform 1s;
+  transform: scale(1.5);
 }
 
 #home {
@@ -357,6 +358,11 @@ h1 {
 
 .bottom-icons a {
   color: rgb(234, 234, 236);
+}
+
+.bottom-icons a:hover {
+  color: #0d3250;
+  transition: all 0.5s ease-out;
 }
 
 #subfooter {
