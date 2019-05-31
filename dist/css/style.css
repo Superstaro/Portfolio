@@ -167,7 +167,6 @@
   padding: 0;
   list-style: none;
   transform: translate3d(0, -100%, 0);
-  /* @include easeOut; */
 }
 
 /*Slide from top*/
@@ -188,7 +187,6 @@
 
 .nav-item {
   transform: translate3d(600px, 0, 0);
-  /* @include easeOut; */
 }
 
 /* //Slide Menu bottons from right. */
@@ -209,7 +207,6 @@
   font-weight: 900;
   color: #444;
   text-decoration: none;
-  /* @include easeOut; */
 }
 
 .nav-link:hover {
@@ -342,7 +339,7 @@ h1 {
 
 /*Portfolio page*/
 .apps {
-  padding: 4rem;
+  padding: 0.5rem 4rem;
   display: grid;
   grid-gap: 30px;
   grid-template-areas:
