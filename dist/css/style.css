@@ -339,9 +339,9 @@ h1 {
 
 /*Portfolio page*/
 .apps {
-  padding: 0.5rem 4rem;
+  padding: 0.5rem 4rem 4rem;
   display: grid;
-  grid-gap: 30px;
+  grid-gap: 10px;
   grid-template-areas:
     "item1 item2 item3"
     "item4 item5 item6";
@@ -349,12 +349,32 @@ h1 {
 }
 
 .apps img {
-  width: 100%;
+  width: 80%;
   border-radius: 4%;
 }
 
-.portfolio-page-info {
-  padding: 4rem;
+/*footer*/
+
+.bottom-icons a {
+  color: rgb(234, 234, 236);
+}
+
+#subfooter {
+  display: flex;
+  justify-content: space-between;
+  background: #888c8f;
+  color: rgb(234, 234, 236);
+  padding: 10px 20px;
+  align-items: center;
+}
+
+footer {
+  background: #0d3250;
+  height: 40px;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  border-top: 1px solid #eece29;
 }
 
 /*Media Queries*/
