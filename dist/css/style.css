@@ -464,9 +464,7 @@ p {
 }
 
 #subfooter {
-  /* display: flex;
-  justify-content: space-between; */
-  background: #888c8f;
+  background:rgba(194, 192, 192, 0.5);
   color: rgb(234, 234, 236);
   padding: 1rem;
   /* align-items: center; */
@@ -515,3 +513,4 @@ span{
   display: inline-block;
 }
   
+
