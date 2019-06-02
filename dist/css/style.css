@@ -357,6 +357,7 @@ h1 {
 }
 h2 {
   padding: 0 3rem;
+  font-size:1.5rem;
 }
 
 .footer-icons {
@@ -500,6 +501,15 @@ h1{
   margin-top: 20vh;
   line-height: 2.5rem;
 }
+
+h2{
+
+  line-height: 2.5rem;
+  font-size: 20px;
+  padding: 0 1rem;
+}
+
+
 
 span{
   display: inline-block;
