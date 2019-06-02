@@ -327,13 +327,20 @@ main {
   min-height: calc(
     100vh - 40px
   ); /*Sticky footer. Main height - footer height.*/
+  line-height: 1.5rem;
 }
 
 .icons {
   margin-top: 1rem;
-  padding-left: 3rem;
+  margin-left: 2rem;
 }
-
+.lg-heading {
+  margin-top: 30vh;
+  padding: 0 3rem;
+}
+.sm-heading {
+  padding: 0 3rem;
+}
 a {
   color: #444;
   padding: 0.4rem;
@@ -357,7 +364,7 @@ h1 {
 }
 h2 {
   padding: 0 3rem;
-  font-size:1.5rem;
+  font-size: 1.5rem;
 }
 
 .footer-icons {
@@ -395,7 +402,7 @@ span {
 }
 
 /*Animated about page text*/
-.center {
+.left {
   width: 100%;
   height: 20vh;
   display: flex;
@@ -452,6 +459,12 @@ p {
   color: rgb(234, 234, 236);
 }
 
+h3,
+h6,
+p {
+  text-shadow: 0.5px 1px #0d3250;
+}
+
 /*footer*/
 
 .bottom-icons a {
@@ -464,12 +477,11 @@ p {
 }
 
 #subfooter {
-  background:rgba(194, 192, 192, 0.5);
+  background: rgba(194, 192, 192, 0.5);
   color: rgb(234, 234, 236);
   padding: 1rem;
-
 }
-.contact-info{
+.contact-info {
   color: rgb(5, 5, 5);
 }
 
@@ -482,38 +494,60 @@ footer {
   border-top: 1px solid #eece29;
 }
 
-/*Media Queries*/ 
+/*Media Queries*/
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
-  main{
+  main {
     padding: 8px;
   }
 
-.my-picture{
+  .my-picture {
     padding: 1.5rem;
-     }
-     
-img.my-image{
-  max-width: 100%;
-     }
+  }
 
-h1{
+  img.my-image {
+    max-width: 100%;
+  }
+
+  h1 {
+    padding: 1rem;
+    margin-top: 20vh;
+    line-height: 2.5rem;
+  }
+
+  h2 {
+    line-height: 2.5rem;
+    font-size: 20px;
+    padding: 0 1rem;
+  }
+
+  span {
+    display: inline-block;
+  }
+
+  .my-info,
+  .hello {
+    padding: 15px;
+  }
+
+  .movedown {
+    margin-top: 70vh;
+  }
+
+  #text {
+    padding: 15px;
+    text-align: left;
+  }
+}
+
+.footer-icons,
+.contact-info,
+.footer-logo {
+  text-align: center;
   padding: 1rem;
-  margin-top: 20vh;
-  line-height: 2.5rem;
 }
 
-h2{
-
-  line-height: 2.5rem;
-  font-size: 20px;
-  padding: 0 1rem;
+.icons {
+  padding: 1rem 0rem;
+  margin-left: 10px;
 }
-
-
-
-span{
-  display: inline-block;
-}
-  
-
