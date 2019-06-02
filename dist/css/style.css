@@ -387,9 +387,46 @@ span {
 }
 
 .hello {
-  font-size: 50px;
+  font-size: 40px;
   margin-top: 0;
   font-family: "Lobster", helvetica, arial;
+}
+
+/*Animated about page text*/
+.center {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+
+p {
+  width: 100%;
+  font-size: 1.5rem;
+  display: block;
+  text-align: left;
+}
+
+.char {
+  font-size: 1.5rem;
+  height: 30px;
+  animation: an 1s ease-out 1 both;
+  display: inline-block;
+  color: #444;
+  text-shadow: 0.5px 1px #0d3250;
+}
+
+@keyframes an {
+  from {
+    opacity: 0;
+    transform: perspective(500px) translate3d(-35px, -40px, -150px)
+      rotate3d(1, -1, 0, 35deg);
+  }
+  to {
+    opacity: 1;
+    transform: perspective(500px) translate3d(0, 0, 0);
+  }
 }
 
 /*Portfolio page*/
