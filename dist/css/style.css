@@ -255,6 +255,9 @@ main {
   ); /*Sticky footer. Main height - footer height.*/
   line-height: 1.5rem;
 }
+main#portfolio {
+  padding: 5rem;
+}
 .lg-heading {
   margin-top: 30vh;
   padding: 0 3rem;
@@ -367,14 +370,26 @@ p {
   grid-template-columns: repeat(3, 1fr);
 }
 
-.apps img {
-  width: 80%;
-  border-radius: 4%;
+.cards {
+  display: flex;
 }
+.card {
+  background: rgb(13, 30, 44, 0.9);
+  padding: 1.5rem;
+  color: #fff;
+  box-shadow: 0rem 1rem 3rem #000;
 
-.jobs {
-  background: #0d3250;
-  color: rgb(234, 234, 236);
+  transition: 0.2s;
+}
+.card:not(:first-child) {
+  margin-left: -2rem;
+}
+.card:not(:last-child):hover,
+.card:not(:last-child):focus-within {
+  transform: translateY(-1rem);
+  ~ .card {
+    transform: translateX(2rem);
+  }
 }
 
 /*footer*/
