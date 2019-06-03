@@ -289,6 +289,12 @@ h2 {
   font-size: 1.5rem;
 }
 
+h3,
+h6,
+p {
+  text-shadow: 0.5px 1px #0d3250;
+}
+
 span {
   color: #0d3250;
 }
@@ -369,12 +375,6 @@ p {
 .jobs {
   background: #0d3250;
   color: rgb(234, 234, 236);
-}
-
-h3,
-h6,
-p {
-  text-shadow: 0.5px 1px #0d3250;
 }
 
 /*footer*/
