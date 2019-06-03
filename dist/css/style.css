@@ -455,20 +455,13 @@ footer {
   }
 
   .movedown {
-    margin-top: 70vh;
+    margin-top: 50vh;
   }
 
   #text {
     padding: 15px;
     text-align: left;
   }
-}
-
-.footer-icons,
-.footer-contact,
-.footer-logo {
-  text-align: center;
-  padding: 1rem;
 }
 
 .icons {
