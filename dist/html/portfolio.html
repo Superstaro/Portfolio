@@ -10,6 +10,12 @@
       integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="../css/style.css" />
     <title>Portfolio</title>
   </head>
@@ -44,11 +50,9 @@
         </ul>
       </nav>
     </header>
-    <main id="work">
-      <h1 class="lg-heading">
-        Víctor <span class="text-secondary">Feliz Brown</span>
-      </h1>
-      <h2 class="sm-heading">
+    <main>
+      <h1>Víctor <span>Feliz Brown</span></h1>
+      <h2>
         Full Stack Web Developer
       </h2>
       <div class="apps">
@@ -86,33 +90,40 @@
       </div>
     </main>
     <div id="subfooter">
-      <div class="logo">
-        <img src="../img/logo.png" alt="logo" />
-      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 footer-logo">
+            <img src="../img/logo.png" alt="logo" />
+          </div>
 
-      <div class="contact">
-        <div><span class="text-secondary">Phone:</span> (555) 555-5555</div>
-        <div>
-          <span class="text-secondary">Email:</span> victorbrown@xndr.com
+          <div class="col-md-4 contact-info">
+            <div><span>Phone:</span> (555) 555-5555</div>
+            <div><span>Email:</span>victorbrown@xndr.com</div>
+          </div>
+          <div class="col-md-4 footer-icons">
+            <a href="#">
+              <i class="fab fa-facebook fa-2x"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-twitter fa-2x"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-github fa-2x"></i>
+            </a>
+          </div>
         </div>
-      </div>
-      <div class="bottom-icons">
-        <a href="#">
-          <i class="fab fa-facebook fa-2x"></i>
-        </a>
-        <a href="#">
-          <i class="fab fa-twitter fa-2x"></i>
-        </a>
-        <a href="#">
-          <i class="fab fa-linkedin fa-2x"></i>
-        </a>
-        <a href="#">
-          <i class="fab fa-github fa-2x"></i>
-        </a>
       </div>
     </div>
 
     <footer>Line <i>Breik</i> &copy; 2019</footer>
     <script src="/dist/js/main.js"></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
