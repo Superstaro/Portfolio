@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-/*Menu and its buttons*/
+/*Menu and its buttons down to line 222*/
 
 .menu-btn {
   position: absolute;
@@ -237,88 +237,10 @@ body#bg-img {
   background-size: cover;
 }
 
-/* Text Animation Home
-.lg-heading {
-  display: inline-block;
-  overflow: hidden;
-  white-space: nowrap;
-}
-
-.lg-heading:first-of-type {
-  animation: showup 7s infinite;
-}
-
-.lg-heading:last-of-type {
-  width: 0px;
-  animation: reveal 7s infinite;
-}
-
-.lg-heading:last-of-type span {
-  margin-left: 20px;
-  animation: slidein 10s infinite;
-}
-
-@keyframes showup {
-  0% {
-    opacity: 0;
-  }
-  20% {
-    opacity: 1;
-  }
-  80% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-@keyframes slidein {
-  0% {
-    margin-left: -1000px;
-  }
-  20% {
-    margin-left: -1000px;
-  }
-  35% {
-    margin-left: 0px;
-  }
-  100% {
-    margin-left: 0px;
-  }
-}
-
-@keyframes reveal {
-  0% {
-    opacity: 0;
-    width: 0px;
-  }
-  20% {
-    opacity: 1;
-    width: 0px;
-  }
-  30% {
-    width: 2000px;
-  }
-  80% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-    width: 2000px;
-  }
-} */
-
-/*End text animation*/
-
 header {
   position: fixed;
   z-index: 2;
   width: 100%;
-}
-
-.text-secondary {
-  color: #11266e;
 }
 
 main {
@@ -329,11 +251,6 @@ main {
   ); /*Sticky footer. Main height - footer height.*/
   line-height: 1.5rem;
 }
-
-.icons {
-  margin-top: 1rem;
-  margin-left: 2rem;
-}
 .lg-heading {
   margin-top: 30vh;
   padding: 0 3rem;
@@ -341,6 +258,11 @@ main {
 .sm-heading {
   padding: 0 3rem;
 }
+
+div.icons {
+  margin-left: 3rem;
+}
+
 a {
   color: #444;
   padding: 0.4rem;
