@@ -47,3 +47,22 @@ var length = text.children.length;
 for (let i = 0; i < length; i++) {
   text.children[i].style["animation-delay"] = animationDelay * i + "ms";
 }
+
+/*$(document).ready(function() {
+  $("body").css("display", "none");
+
+  $("body").fadeIn(9000);
+
+  $(".link").click(function(event) {
+    event.preventDefault();
+
+    newLocation = this.href;
+
+    $("body").fadeOut(9000, newpage);
+  });
+
+  function newpage() {
+    window.location = newLocation;
+  }
+});
+*/
