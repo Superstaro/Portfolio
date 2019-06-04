@@ -400,14 +400,20 @@ p {
   padding: 1rem;
 }
 
+div.row {
+  display: flex;
+  justify-content: space-between;
+}
 div.col-md-4.footer-logo {
-  text-align: left;
+  text-align: right;
   padding: 1rem;
 }
 
 div.col-md-4.footer-icons {
   line-height: 5rem;
-  text-align: right;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer-icons a {
@@ -415,7 +421,7 @@ div.col-md-4.footer-icons {
 }
 
 .footer-icons a:hover {
-  color: #0d3250;
+  color: #89221a;
   transition: all 0.5s ease-out;
 }
 
@@ -525,12 +531,9 @@ footer {
     text-align: center;
   }
 
-  div.col-md-4.footer-contact {
-    text-align: center;
-    padding: 1rem;
-  }
-
   div.col-md-4.footer-icons {
     text-align: center;
+    display: flex;
+    justify-content: space-evenly;
   }
-}
+
