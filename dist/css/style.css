@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-/*Menu and its buttons down to line 222*/
+/*Menu and its buttons down to line 189*/
 
 .menu-btn {
   position: absolute;
@@ -50,7 +50,6 @@
   visibility: visible;
 }
 
-
 .menu-nav {
   display: flex;
   flex-flow: column wrap;
@@ -60,19 +59,16 @@
   width: 100%;
   height: 100vh;
   overflow: hidden;
-}
-.menu-nav {
   margin: 0;
   padding: 0;
   list-style: none;
   transform: translate3d(0, -100%, 0);
   transition: all 0.5s ease-out;
 }
+
 .menu-nav.show {
   transform: translate3d(0, 0, 0);
 }
-
-
 
 .menu .nav-item {
   transform: translate3d(600px, 0, 0);
@@ -104,10 +100,6 @@
 
 .nav-item:nth-child(3) {
   transition-delay: 0.3s;
-}
-
-.nav-item:nth-child(4) {
-  transition-delay: 0.4s;
 }
 
 /* Rotate Into X with Menu Lines */
@@ -152,9 +144,6 @@
   width: 100%;
   height: 100vh;
   overflow: hidden;
-}
-
-.menu-nav {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -166,11 +155,6 @@
   transform: translate3d(0, 0, 0);
   background: rgb(166, 195, 209);
 }
-
-
-
-
-
 
 /* //Slide Menu bottons from right. */
 .nav-item .show {
