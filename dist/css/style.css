@@ -402,6 +402,7 @@ p {
 
 div.col-md-4.footer-logo {
   text-align: left;
+  padding: 1rem;
 }
 
 div.col-md-4.footer-icons {
@@ -416,12 +417,6 @@ div.col-md-4.footer-icons {
 .footer-icons a:hover {
   color: #0d3250;
   transition: all 0.5s ease-out;
-}
-
-div.col-md-4.footer-contact {
-  margin-top: 15px;
-  text-align: center;
-  color: rgb(5, 5, 5);
 }
 
 footer {
